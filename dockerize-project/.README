@@ -1,0 +1,9 @@
+The repo should be place it into
+
+%USERNAME%\.skills
+
+If the IDE use another folder to read the skills you can use mklink to let read the skills into the IDE.
+
+Example Antigravity, the skills are reading from .gemini\config\skills, in this case the command to use should be:
+
+## mklink /d C:\Users\%USERNAME%\.gemini\config\skills C:\Users\%USERNAME%\.skills
